@@ -20,14 +20,25 @@ h1.display-3{
 }
 
 .business-header {
-  height: 50vh;
-  min-height: 600px; 
-  max-width:100%;
+  min-height: 50vh;
+ /* min-height: 600px; */
+  width:100%;
+;
+  object-fit: contain; 
+  
   background-image: url(images/banner_logo.jpg); center center no-repeat scroll;
-  -webkit-background-size: cover;
+ /* -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover; */
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .business-header{
+    width: 100%;
+    height: auto;
+  }
 }
 
 .card {
