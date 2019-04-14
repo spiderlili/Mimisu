@@ -20,11 +20,15 @@ h1.display-3{
 }
 
 .business-header {
-  min-height: 50vh;
+  /*min-height: 50vh;
  /* min-height: 600px; */
-  width:100%;
-  
+  /*width:100%; */
+  width: 100%;
+  min-height: 500px; 
+  height: auto;
   background-image: url(images/banner_logo.jpg); center center no-repeat scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
  /* -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -35,7 +39,6 @@ h1.display-3{
   /* For mobile phones: */
   .business-header{
     width: 100%;
-    height: auto;
   }
 }
 
