@@ -22,7 +22,7 @@ h1.display-3{
 .business-header {
   height: 50vh;
   min-height: 600px;
-  background-image: url(images/banner_shopfront.jpg); center center no-repeat scroll;
+  background-image: url(images/banner_logo.jpg); center center no-repeat scroll;
   /*--background-image: url("https://farm5.staticflickr.com/4551/37922005605_e575007359_o.jpg"); center center no-repeat scroll; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
